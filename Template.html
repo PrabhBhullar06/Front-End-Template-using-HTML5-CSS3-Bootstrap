@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>layout2</title>
+	<style>
+
+		#Main_Body 
+			{
+			height: 800px;
+			width: 1150px;
+			color: #061C37;
+			background: linear-gradient(#3A5FCD,#6D9BF1);
+			margin-left: 150px;
+			}
+		#little_line1
+			{
+			height: 10px;
+			width: 250px;
+			position: relative;
+			top: 150px;
+			background-color:#FFFFFF;
+			display: inline;
+			float: left;
+
+			}
+		#little_line2
+			{
+			height: 10px;
+			width: 250px;
+			position: relative;
+			top: 150px;
+			background-color:#FFFFFF;
+			display: inline;
+			float: right;
+
+			}
+		#bigbox
+			{
+			display: block; 
+			height:60px;
+			position: relative; 
+		    overflow: hidden; 
+			width: 670px;
+			margin-left: 250px;
+			}
+		.Menu
+			{
+			text-align:center;
+			position:relative;
+			margin-top:30px;
+			font-size:16px;
+			margin-left:-10px;
+			width:121px;
+			height: 35px;
+			display: inline;
+			float:left;
+			font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+
+			}
+		.Menu a
+			{
+			text-decoration: none;
+			color: #C6E2FF;
+			float: left;
+			margin-left: 15px;
+			}
+		#picturebox
+			{
+			width:670px;
+			height:345px;
+			background-color:#FFFFFF;
+			margin-left: 250px;
+			}
+		.picture
+			{
+			position:relative;
+			width:650px;
+			height:325px;
+			top:10px;
+			background-image:url(anoceanofsky.jpg);
+			margin-left: 10px;
+			}
+		#picture_title
+			{
+			position:relative;
+			top:30px;
+			left:40px;
+			font-size:25px;
+			color:#FFFFFF;
+			font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+			}
+		#picture_text
+			{
+			position:relative;
+			top:30px;
+			left:50px;
+			font-size:14px;
+			color:#A9C8FA;
+			font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+			}
+
+		#paragraph_box
+			{
+			width:670px;
+			height:355px;
+			background-color:#FFFFFF;
+			margin-left: 250px;
+			}
+		#writing_box
+			{
+			position:relative;
+			margin-top:10px;
+			width:650px;
+			height:300px;
+			top:10px;
+			background: linear-gradient(#C6E2FF,#E6E8FA);
+			padding-bottom:35px;
+			margin-left: 10px;
+			}
+		#writing_title
+			{
+			font-size:19px;
+			margin-bottom:0px;
+			padding-top:18px;
+			margin-left:15px;
+			margin-top:15px;
+			}
+		
+		#writing_text
+			{
+			font-size:13px;
+			line-height:24px;
+			margin-left:13px;
+			margin-right:13px;	
+			}
+		#writing_text a
+			{
+				text-decoration: none;
+				color: #0276FD;
+			}
+	</style>
+</head>
+<body>
+<div id="Main_Body">
+<div id="little_line1"></div>
+<div id="little_line2"></div>
+
+	<div id="bigbox">
+		<div class="Menu"><a href="#">Home</a></div>
+        <div class="Menu"><a href="#">About</a></div>
+        <div class="Menu"><a href="#">Portfolio</a></div>
+        <div class="Menu"><a href="#">Services</a></div>
+	    <div class="Menu"><a href="#">Contact</a></div>
+	</div>
+
+	<div id="picturebox">
+    	<div class="picture">
+        	<div id="picture_title">An Ocean of Sky</div>
+            <div id="picture_text">Practicing CSS in HTML</div>
+        </div>
+   </div>
+   <div id="paragraph_box">
+    	<div id="writing_box">
+        	<div id="writing_title">The Title of an Article</div>
+          <div id="writing_text"><p>I am Computer Science Grad Student in California State UNiversity Fullerton. My goal is to dig deeper into the nuances of Computer Science and learn the fundamentals and programming in Object Oriented Programming (<a href="https://www.linkedin.com/in/prabhdeepbhullar/" >click here to view my LinkedIn Profile.</a>) If you need to look at my Github Account<a href="https://github.com/PrabhBhullar06"> Please Click Here </a>.</p>
+          </div>
+</div>
+
+
+
+
+</body>
+</html>
